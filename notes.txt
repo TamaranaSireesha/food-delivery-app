@@ -1,0 +1,18 @@
+props will pass  as arguments:
+  
+<!-- const RestaurantCard=(props)=>{
+    return(
+        <div className="restro-container">
+            <div className="restro-card">
+             <img  className="res-logo" src= "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/e0vvulfbahjxjz6k4uwi" alt="logo-image"/>
+              <h2>{props.resName}</h2>
+              <h3>{props.cuisine}</h3>
+              <h5>4.3 star</h5>
+              <h6>38 mints</h6>
+            </div>
+        </div>
+    );
+
+}; -->
+
+

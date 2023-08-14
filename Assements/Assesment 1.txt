@@ -1,0 +1,44 @@
+=>What is Emmet?
+
+Emmet is a Essentialtool kit for developers to type a shortcuts that can expanded and provide full piece of code to writing in  html and css
+
+example:html:5 and enter it will provide basic structure of html 
+
+=>Difference between a Library and Framework?
+Library: it is a collection of objects ,functions,doms we can call whenver we need 
+we are calling to library.(more freedom /more chances that is library)
+Framework: framework will call our code (ristrictive rules/great chances is framework)
+j query is a library
+django is a library 
+
+=>What is CDN? Why do we use it?
+A: A content delivery network (CDN) refers to a geographically distributed group of servers that work together to provide fast delivery of Internet content. The main use of a CDN is to deliver content through a network of servers in a secure and efficient way.
+
+=>What is async and defer ?
+ Async and Defer both are boolean attributes which are used along with scripts to excute external scripts efficiently .
+
+ "defer":It will fetch the scripts from the network and excute whenever html parsing is completed .
+ <script src="demo_defer.js" async></script>
+ "async":It will fetch the scripts in parallel with html parsing and after excuting the scripts it will again parsing.
+ <script src="demo_async.js" async></script>
+Ex: when we have multiple scripts that one script is depend on other then it will not excute particular order in that we can use defer 
+
+"defer"  maintain the order of excution of the scripts 
+
+=>What is difference between react.development.js and react.production.js files via CDN?
+
+Development is the stage of an application before it's made public while production is the term used for the same application when it's made public. Development build is several times (maybe 3-5x) slower than the production build.
+production:
+Minification and compression of javascript and HTML resources to reduce the size of a file.
+
+=>What is difference between React and ReactDOM?
+ React is javascript library where as ReactDOM used for "Dom" manupulations 
+ ReactDOM is to render components and elements to the web .It is a part of the React library used to create user interfaces and dynamic web applications, as well as reusable and composable components that can be used in different applications.
+
+ The react package holds the react source for components, state, props and all the code that is react.
+
+ ReactDom: mounting your application to the index.html file with ReactDOM.render()
+
+const root=ReactDOM.create(document.getElementById("root));
+root.render(element/component);
+

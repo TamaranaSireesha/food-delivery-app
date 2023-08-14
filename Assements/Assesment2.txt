@@ -1,0 +1,52 @@
+=>What is NPM?
+Node package manager it will manage all the packages which we installled and  dependencies for a project. 
+npm init === it will create .json file
+Command:npm install -D parcel I want parcel as node package manager as a dev dependencies.
+
+=>What is Parcel/Webpack? Why do we need it?
+
+both parcel and webpack are bundlers that will bundles our app shift to production .
+
+=>What is .parcel-cache?
+whenever build happens to our project it will store the information in this folder. when its rebuild no need to re-parse or re-analze everuthing from scratch becuase4 of that parcel is fast in development mode.
+
+command: npx parcel build index.html
+
+=>What is npx ?
+node package excute  It is simply an "NPM package runner". It allows developers to execute any Javascript Package available on the NPM registry without even installing it.
+
+=>What is difference between dependencies vs devDependencies?
+dependencies are the packages that particular project work on it 
+it will have different type of dependencies based on build , run and test and so on..
+devDependencies: the object of devDependencies are used in developement of a project.
+ex:parcel.
+
+dependencies:the dependencies that are used for run of a project 
+example are react.
+
+the dependency objects are placed in package.json.
+
+=>What is Tree Shaking?
+ .Parcel has superpower
+ .it will remove unwanted code 
+ ex:If u r app importing a library which has a lot functions(say , 20 function ).then all of the function will come to our code but we need only 2-3 function then by using treeshaking it will remove remaining functions(unwanted code).
+
+ =>What is Hot Module Replacement?
+ parcel will keep track of all the files which you're updating.
+ when we save the code it automatically refresh build page 
+ //localhost:123
+
+=>List down your favorite 5 superpowers of Parcel and describe any 3 of them in your own words.
+1.HMR
+2.Minification
+3.Bundling
+4.diagnostic(treeshaking)
+
+=>What is .gitignore? What should we add and not add into it?
+ If you want any files not to production
+//nodemodules becuase we can re install it ("npm install")  becuase package.json /package.lock.json maintain the note that dependencies require for an project.
+
+=>What is the difference between package.json and package-lock.json
+package.json:
+
+package-lock.json:
